@@ -1,0 +1,16 @@
+{
+  "env": {
+    "development": {
+      "presets": [
+        [ "env", {"modules": false} ],
+        "stage-2"
+      ],
+      "plugins": ["transform-runtime"],
+      "comments": false
+    },
+    "production": {
+      "presets": ["es2015-rollup"],
+      "comments": false
+    }
+  }
+}
